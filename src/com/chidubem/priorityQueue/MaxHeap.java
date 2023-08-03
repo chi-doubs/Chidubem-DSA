@@ -22,6 +22,9 @@ public class MaxHeap {
         maxHeap[0] = 0;
     }
 
+    public boolean isEmpty(){
+        return heapSize == 0;
+    }
     // Function to add an element
     public void add(int element) {
         realSize++;

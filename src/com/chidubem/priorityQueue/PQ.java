@@ -19,8 +19,7 @@ public class PQ {
         }
     }
 
-    static class CustomIntegerComparator implements Comparator<Integer>{
-
+    static class CustomIntegerComparator implements Comparator<Integer> {
 
         @Override
         public int compare(Integer o1, Integer o2) {
