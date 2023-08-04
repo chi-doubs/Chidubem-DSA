@@ -5,7 +5,7 @@ package com.chidubem.kotlinPlayGround
 data class Question<T>(
     val questionText: String,
     val answer: T,
-    val difficutly: Difficulty
+    val difficultly: Difficulty
 )
 
 enum class Difficulty {
@@ -34,19 +34,19 @@ class Quiz :  ProgressPrintable {
         question1.let {
             println(it.questionText)
             println(it.answer)
-            println(it.difficutly)
+            println(it.difficultly)
         }
         println()
         question2.let {
             println(it.questionText)
             println(it.answer)
-            println(it.difficutly)
+            println(it.difficultly)
         }
         println()
         question3.let {
             println(it.questionText)
             println(it.answer)
-            println(it.difficutly)
+            println(it.difficultly)
         }
         println()
     }
