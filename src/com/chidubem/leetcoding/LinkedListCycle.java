@@ -30,6 +30,7 @@ public class LinkedListCycle {
         head.next.next.next = new Node(-4);
 
         // 3 -> 2 -> 0 -> 4
+        System.out.println(head);
 
         System.out.println("Does the linked list have a cycle? " + hasCycle(head));
     }
